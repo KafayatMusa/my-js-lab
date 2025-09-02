@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Manipulations: Project 2</title>
-    <link rel="stylesheet" href="./project1.css">
+    <link rel="stylesheet" href="./project.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Project 2 => Modal-->
-
-    <!--Modal Open Button-->
     <button id="open-btn">
-        <p>Where's Our Modal?</p>
+        <p>Show me the wow</p>
     </button>
-    <!--Modal $ Modal Background-->
+    <!-- Modal Background Overlay -->
+    <div id="modal-overlay"></div>
+    <!--Modal & Modal Content-->
     <div id="modal-container">
         <div id="modal">
-            <p>Here I am!</p>
+            <!-- <img src="img/spencer-davis-5dsZnCVDHd0-unsplash.jpg" alt="Nature" class="modal-img"> -->
+            <h2>Welcome to My Attractive Site!</h2>
+            <p>Subscribe to our newsletter for updates and exclusive content.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
             <div id="close-btn">&times;</div>
         </div>
     </div>
