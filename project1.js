@@ -5,6 +5,7 @@ let closeBtn = document.getElementById('close-btn');
 let overlay = document.getElementById('modal-overlay');
 let newsletterForm = document.querySelector('.newsletter-form');
 
+
 //event listeners
 openBtn.addEventListener('click', function(){
     modalContainer.style.display = 'block';
