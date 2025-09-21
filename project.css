@@ -11,6 +11,9 @@ body {
     height: 100vh;
     color: #222;
 }
+#login{
+    background-color: #6a11cb;
+}
 #open-btn{
     position: absolute;
     top: 70%;
